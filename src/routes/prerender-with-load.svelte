@@ -1,5 +1,5 @@
 <script context="module">
-  export let prerender = true
+  export const prerender = true
   import { fakeFetch } from "$lib/fakeFetch";
 
   export async function load(){
